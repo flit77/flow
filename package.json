@@ -1,0 +1,20 @@
+{
+  "name": "init",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "flow-bin": "^0.43.1"
+  },
+  "devDependencies": {
+    "flow-remove-types": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "flow-remove-types src/ -D dest/",
+    "flow": "flow"
+  },
+  "keywords": [],
+  "author": "https://www.sitepoint.com/writing-better-javascript-with-flow/",
+  "license": "ISC"
+}
